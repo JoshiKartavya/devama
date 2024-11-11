@@ -1,7 +1,9 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "Home", link: "#hero" },
   { name: "About", link: "#about" },
-  { name: "Services", link: "#projects" },
+  { name: "Services", link: "#services" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -14,7 +16,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/mock.png",
     spareImg: "",
   },
   {
@@ -197,13 +199,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://www.youtube.com/"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: ""
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/devama-amin-a36b8a240/"
   },
 ];
