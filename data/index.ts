@@ -76,33 +76,27 @@ export const gridItems = [
 export const services = [
   {
     id: 1,
-    number:"1",
-    title:"Ethical Hacking & Penetration Testing",
-    description:"Simulated cyberattacks to test the strength of your security systems, uncovering vulnerabilities before malicious hackers can exploit them."
+    price:"499",
+    title:"Ethical Hacking",
+    description:"Proactively secure your systems with ethical hacking techniques to identify and resolve potential security risks.",
+    features: ["Vulnerability Assessments", "Exploitation Testing", "Code Auditing", "Security Gap Analysis"],
+    link: "https://www.youtube.com/"
   },
   {
     id: 2,
-    number:"2",
-    title:"Ethical Hacking & Penetration Testing",
-    description:"Simulated cyberattacks to test the strength of your security systems, uncovering vulnerabilities before malicious hackers can exploit them."
+    price:"499",
+    title:"IOS pentesting",
+    description:"Proactively secure your systems with ethical hacking techniques to identify and resolve potential security risks.",
+    features: ["Vulnerability Assessments", "Exploitation Testing", "Code Auditing", "Security Gap Analysis"],
+    link: "https://www.youtube.com/"
   },
   {
     id: 3,
-    number:"3",
-    title:"Ethical Hacking & Penetration Testing",
-    description:"Simulated cyberattacks to test the strength of your security systems, uncovering vulnerabilities before malicious hackers can exploit them."
-  },
-  {
-    id: 4,
-    number:"4",
-    title:"Ethical Hacking & Penetration Testing",
-    description:"Simulated cyberattacks to test the strength of your security systems, uncovering vulnerabilities before malicious hackers can exploit them."
-  },
-  {
-    id: 5,
-    number:"5",
-    title:"Ethical Hacking & Penetration Testing",
-    description:"Simulated cyberattacks to test the strength of your security systems, uncovering vulnerabilities before malicious hackers can exploit them."
+    price:"499",
+    title:"Ethical Hacking",
+    description:"Proactively secure your systems with ethical hacking techniques to identify and resolve potential security risks.",
+    features: ["Vulnerability Assessments", "Exploitation Testing", "Code Auditing", "Security Gap Analysis"],
+    link: "https://www.youtube.com/"
   }
 ]
 
@@ -139,38 +133,38 @@ export const testimonials = [
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+// export const companies = [
+//   {
+//     id: 1,
+//     name: "cloudinary",
+//     img: "/cloud.svg",
+//     nameImg: "/cloudName.svg",
+//   },
+//   {
+//     id: 2,
+//     name: "appwrite",
+//     img: "/app.svg",
+//     nameImg: "/appName.svg",
+//   },
+//   {
+//     id: 3,
+//     name: "HOSTINGER",
+//     img: "/host.svg",
+//     nameImg: "/hostName.svg",
+//   },
+//   {
+//     id: 4,
+//     name: "stream",
+//     img: "/s.svg",
+//     nameImg: "/streamName.svg",
+//   },
+//   {
+//     id: 5,
+//     name: "docker.",
+//     img: "/dock.svg",
+//     nameImg: "/dockerName.svg",
+//   },
+// ];
 
 export const workExperience = [
   {

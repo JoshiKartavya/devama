@@ -4,8 +4,8 @@ import ServiceMobile from './ServiceMobile'
 
 const Services = () => {
   return (
-    <div id='services' className='flex flex-col justify-center items-center h-screen'>
-      <h1 className='text-7xl font-bold text-[#d9d9d9]'>Section about <span className='text-purple'>what i can do?</span></h1>
+    <div id='services' className='flex flex-col justify-center items-center h-max'>
+      <h1 className='text-7xl font-bold text-[#d9d9d9]'>Area of<span className='text-purple'>Experties</span></h1>
       <ServiceDesktop />
       <ServiceMobile />
     </div>
