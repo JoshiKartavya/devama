@@ -1,0 +1,26 @@
+.service {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  
+    // For hover animation
+    &:hover {
+      transform: translateY(0px); // Slight lift effect
+    }
+  
+    &:before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      z-index: -1;
+      background: conic-gradient(from 90deg at 50% 50%, #E2CBFF 0%, #393BB2 50%, #E2CBFF 100%);
+      border-radius: inherit;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+  
+    &:hover::before {
+      opacity: 1;
+    }
+  }
+  
