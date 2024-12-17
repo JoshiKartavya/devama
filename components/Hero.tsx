@@ -42,7 +42,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Devam, a Cyber security expert based in India.
+            Hi! I&apos;m Danial, a Cyber security expert based in London.
           </p>
 
           <a href="#about">
