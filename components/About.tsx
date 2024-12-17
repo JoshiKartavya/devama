@@ -26,13 +26,13 @@ const About = () => {
         }}
       >
         <div className="image relative h-[300px] lg:h-[400px] xl:h-[400px] w-[225px] lg:w-[300px] xl:w-[300px]">
-          <Image src="/devam.png" alt='profile' fill objectFit="cover" />
+          <Image className=' object-cover' src="/download.jpg" alt='profile' fill />
         </div>
         
         <div className="content flex flex-col h-auto lg:h-[50vh] md:items-center xl:items-start justify-start gap-6 lg:gap-0 xl:gap-0 lg:justify-evenly xl:justify-evenly items-start w-full px-4 lg:w-[55vw] xl:w-[55vw] pb-4 lg:pb-0">
           <p className='text-xs lg:text-lg xl:text-lg font-light'>( About me )</p>
           <h1 className='text-xl lg:text-4xl xl:text-4xl font-semibold text-left xl:text-left md:text-center'>
-            Hi, I&apos;m <span className='text-purple'>Devam Amin</span>, a 24-year-old cybersecurity expert from India specializing in network security and ethical hacking.
+            Hi, I&apos;m <span className='text-purple'>Devam Amin</span>, a 20-year-old cybersecurity expert based in India specializing in network security and ethical hacking.
           </h1>
           <MagicButton title="My CV" icon={<FaLocationArrow />} position="right"/>
         </div>
